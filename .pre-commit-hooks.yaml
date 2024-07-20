@@ -1,0 +1,6 @@
+- id: google-java-format
+  name: Format Java with Google Java Format
+  description: Format Java code with Google Java Format, via Docker
+  entry: java -jar ../google-java-format-1.22.0-all-deps.jar --set-exit-if-changed
+  language: docker
+  types: [java]
